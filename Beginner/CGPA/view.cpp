@@ -24,7 +24,7 @@ void StudentLoginWindow()
 
 void HandleMissingStudent()
 {
-    std::cout << "Student not found. Please check your ID and try again." << std::endl;
+    std::cout << "Student not found. Please check your ID and try again, or create new one" << std::endl;
     std::cout << "Student id: " << studentId << std::endl;
     std::cout << "Do you want to create a New student? (y/n)" << std::endl;
 
@@ -62,6 +62,10 @@ void StudentMenu()
         std::cout << "Semester results added successfully." << std::endl;
         StudentMenu();
     }
+    else if (choice == '3') 
+    {
+        StudentLoginWindow();
+    }
 }
 
 void DisplayStatistics()
@@ -95,7 +99,7 @@ void DisplayStatistics()
 
 void DisplayDetailedSemesterInfo(Student* currentStudent, int semesterIndex)
 {
-    
+
 }
 
 void DisplayStudentMenuOptions()
