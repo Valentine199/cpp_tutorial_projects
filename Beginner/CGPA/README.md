@@ -12,6 +12,7 @@ Console application
 
 ### Definitions
 **GPA**: Grade point avarage: Measurement of academic sucess. 
+$$GPA = \frac{\sum_{i=1}^{n}grade_n * credit_n}{\sum_{i=1}^{n}credit_n}$$
 total grade points / total number of credits
 grade points can range from 1-5 
 number of credits is a positive integer. 
@@ -56,7 +57,7 @@ The state of the School with each student and their semesters is saved on:
 - When a student adds a semester
 
 This state is stored in a JSON format
-The state is loaded at the start of the program and used
+The state is loaded at the start of the program and used.
 
 ---
 
@@ -72,4 +73,9 @@ FinalGrade: int
 
 **School**:
 Students: Array[Student]
+
+----
+### 2025.11.29. Modifications
+Separate display and logic more []
+Use pragma once []
 
