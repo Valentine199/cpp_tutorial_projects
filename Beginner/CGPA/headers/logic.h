@@ -1,4 +1,6 @@
+#pragma once
 #include "School.h"
+#include "Student.h"
 
 
 Student* SearchStudent(const std::string& studentId, School& school);
