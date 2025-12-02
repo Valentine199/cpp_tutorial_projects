@@ -75,7 +75,12 @@ FinalGrade: int
 Students: Array[Student]
 
 ----
-### 2025.11.29. Modifications
-Separate display and logic more []
-Use pragma once []
+### 2025.11.29. TODOS
+Separate display and logic more [] (Use structs)
+Use pragma once [x]
+Add detailed statistics []
+does total credit shows? []
+Serialize school []
+Test multiple users []
+cache statistics(view.cpp -> DisplayStatistics first line) []
 
